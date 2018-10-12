@@ -1,5 +1,4 @@
-
-employee_file = open('/home/badri/Git/Python4HoursCourse/Files/Employee.txt', "r") #read mode
+employee_file = open ( '/home/badri/Git/Mastering_Python/Files/Employee.txt', "r" )  # read mode
 
 print(employee_file.readable())
 print(employee_file.readline()) #read single line
